@@ -1,0 +1,67 @@
+
+.link {
+    text-direction: none;
+}
+
+.list {
+    display: none;
+    list-style: none;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+    min-width: 320px;
+    position: relative;
+}
+
+/*hero*/
+
+.div-for-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title-hero {
+   position: absolute;
+   top: 74%;
+   left: 35%;
+}
+
+/*about*/
+
+/*.title-about {
+   
+    position: relative;
+}
+
+.title-about::after{
+    content: " ";
+    background: #333333;
+    width: 100%;
+    height: 1px;
+    bottom: 15px;
+    position: absolute;
+}*/
+
+.text-about {
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.about-div {
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+/*store*/
+
+.list-store {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
