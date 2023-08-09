@@ -48,5 +48,8 @@
     <symbol id="icon-footer-svg" viewBox="0 0 32 32">
       <path d="m32 2.667-32 15 10.227 3.156L26 8.5 14.002 21.988l.01.003-.012-.003v7.345l5.735-5.576L27 25.999l5-23.333z"/>
     </symbol>
+    <symbol id="icon-Ellipse-2" viewBox="0 0 32 32">
+    <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.8" d="M31.6 16c0 8.616-6.984 15.6-15.6 15.6s-15.6-6.984-15.6-15.6c0-8.616 6.984-15.6 15.6-15.6s15.6 6.984 15.6 15.6z"></path>
+    </symbol>
   </defs>
 </svg>
