@@ -11,12 +11,27 @@
 .container {
     margin-left: auto;
     margin-right: auto;
-    /*padding-left: 24px;
-    padding-right: 24px;*/
+    padding-left: 8px;
+    padding-right: 8px;
     max-width: 320px;
     position: relative;
 }
 
+/*header*/
+
+.header-position-element {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 44px;
+    margin-top: 16px;
+}
+
+.position-tel-menu {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
 /*hero*/
 
 .div-for-text {
@@ -31,25 +46,19 @@
    left: 35%;
 }
 
-/*about*/
-
-/*.title-about {
-   
-    position: relative;
+.text-hero {
+    text-align: center;
 }
 
-.title-about::after{
-    content: " ";
-    background: #333333;
-    width: 100%;
-    height: 1px;
-    bottom: 15px;
-    position: absolute;
-}*/
+/*about*/ 
 
 .text-about {
     margin-top: 32px;
     margin-bottom: 16px;
+}
+
+.title-about {
+    margin-right: 14px;
 }
 
 .about-div {
@@ -58,6 +67,10 @@
 }
 
 /*store*/
+
+.title-store {
+    margin-right: 14px;
+}
 
 .list-store {
     display: flex;
@@ -85,6 +98,10 @@
 }
 
 /*delivery*/
+
+.title-delivery {
+    margin-right: 14px;
+}
 
 .delivery-picture {
    background-position: center;
@@ -135,14 +152,54 @@
     display: none;
 }
 
+/*blog*/ 
+
 .picture-step {
     padding-left: 0;
-    margin-left: 8px;
     display: flex;
     gap: 16px;
+    margin-bottom: 0;
 }
 
-.blog-svg {
-    margin: 0 auto;
+.svg-blog-div {
+    text-align: center;
+}
 
+.text-p-blog {
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+.btn-blog {
+    width: 208px;
+    height: 44px;
+    padding: 14px 28px;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 38px;
+    background: var(--pink, #E86F54);
+    display: block;
+    margin: 0 auto;
+    margin-top: 24px;
+    margin-bottom: 100px;
+}
+
+.title-blog {
+    margin-right: 14px;
+}
+
+.vertical-line {
+    flex: 1;
+    border-top: 1px solid black;
+}
+
+.conteiner-for-line {
+    display: flex;
+    align-items: center;
+    
 }

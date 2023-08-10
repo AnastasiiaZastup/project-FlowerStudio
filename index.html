@@ -7,7 +7,34 @@
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <header>
+    <header class = "header-flower">
+      <div class = "container header-position-element">
+        <nav class = "nav-logo">
+          <a href="./index.html" class = "link">
+            <svg class = "logo-icon" width="45" height="35">
+              <use href ="pictures/icons.svg#icon-logo_mob"></use>
+            </svg>
+          </a>
+        </nav>
+        <div class = "position-tel-menu">
+        <div class = "tel-header">
+          <address class = "header-adress">
+            <a class = "header-adress-link" href = "tel:+110001111111">
+              <svg class="logo-tel" width="22" height="22">
+                <use href="pictures/icons.svg#icon-tel_mob"></use>
+              </svg>
+            </a>
+          </address>
+        </div>
+          <div class = "menu-header">
+            <button type ="button" class="mob-menu-open" data-menu-open>
+              <svg class="logo-tel" width="24" height="24">
+                <use href="pictures/icons.svg#icon-Burger"></use>
+              </svg>
+            </button>
+          </div>
+          </div>
+      </div>
 
     </header>
     <main>
@@ -55,7 +82,10 @@
 
         <section class = "about">
             <div class = "container about-div">
-                <h2 class = "title-about">ABOUT</h2>
+              <div class="conteiner-for-line">
+                <h2 class="title-about">ABOUT</h2>
+                <div class="vertical-line"></div>
+                </div>
                 <p class = "text-about">We are a minimalistic flower studio. We love people and flowers. Therefore, every day we give people the beauty and joy creating stylish and modern masterpieces. Every bouquet we create is unique as you are.</p>
                 <div class="about-picture">
                     <picture>
@@ -92,7 +122,10 @@
 
         <section class = "store">
             <div class = "container">
-                <h2 class = "title-store">STORE</h2>
+              <div class="conteiner-for-line">
+                <h2 class="title-store">STORE</h2>
+                <div class="vertical-line"></div>
+                </div>
                 <ul class = "list-store list">
                     <li class = "step-list-store">
                         <div class="store-picture">
@@ -238,7 +271,10 @@
 
         <section class = "delivery">
             <div class = "container">
-                <h2 class = "title-delivery">DELIVERY</h2>
+              <div class="conteiner-for-line">
+                <h2 class="title-delivery">DELIVERY</h2>
+                <div class="vertical-line"></div>
+                </div>
                 <ol class = "list-delivery">
                     <li class = "step-list-delivery">
                         <p class="step-number">1</p>
@@ -296,7 +332,10 @@
 
         <section class = "blog">
             <div class = "container">
+                <div class = "conteiner-for-line">
                 <h2 class = "title-blog">BLOG</h2>
+                <div class = "vertical-line"></div>
+                </div>
                 <ul class = "picture-step list">
                 <li class = "picture-blog">
 
@@ -384,6 +423,7 @@
                       </div>
                 </li>
         </ul>
+        <div class = "svg-blog-div">
         <svg class = "blog-svg" width = "61" height = "61">
             <use href = "./pictures/icons.svg#icon-stril_liv"></use>
         </svg>
@@ -391,9 +431,10 @@
         <svg class = "blog-svg" width = "61" height = "61">
             <use href = "./pictures/icons.svg#icon-stril_prav"></use>
         </svg>
+        </div>
 
-        <p>Follow to our newsletter</p>
-        <button class = "btn-store">Subscribe</button>
+        <p class = "text-p-blog">Follow to our newsletter</p>
+        <button class = "btn-blog">Subscribe</button>
         </section>
     </main>
 
