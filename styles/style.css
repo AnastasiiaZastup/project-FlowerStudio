@@ -203,3 +203,25 @@
     align-items: center;
     
 }
+
+/*footer*/
+
+.last-footer {
+    background-color: #000;
+    color: #FFFFFF;
+}
+
+.together-footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.together-footer2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.three-block-ul {
+    margin: 0px;
+    padding: 0px;
+}

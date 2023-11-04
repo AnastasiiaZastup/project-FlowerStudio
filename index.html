@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/tabletmedia.css">
 </head>
 <body>
     <header class = "header-flower">
@@ -14,6 +15,13 @@
             <svg class = "logo-icon" width="45" height="35">
               <use href ="pictures/icons.svg#icon-logo_mob"></use>
             </svg>
+            <ul class = "listed list">
+              <li class = "list-li-header"><a class = "header-link-li link" href = "./index.html">Anemone</a></li>
+              <li class="list-li-header"><a class="header-link-li link" href="#about">About us</a></li>
+              <li class="list-li-header"><a class="header-link-li link" href="#store">Store</a></li>
+              <li class="list-li-header"><a class="header-link-li link" href="#delivery">Delivery</a></li>
+              <li class="list-li-header"><a class="header-link-li link" href="#blog">Blog</a></li>
+            </ul>
           </a>
         </nav>
         <div class = "position-tel-menu">
@@ -72,15 +80,17 @@
                       />
                     </picture>
                   </div>
-                  <svg class = "hero-svg" width = "64" height = "76">
+                  <button class = "btn-svg">
+                  <svg class = "hero-svg" width = "145" height = "150">
                     <use href = "./pictures/icons.svg#icon-btn_desk"></use>
                 </svg>
+                </button>
                 </div>
                 <h1 class = "title-hero">ANEMONE</h1>
             </div>
         </section>
 
-        <section class = "about">
+        <section class = "about" id = "about">
             <div class = "container about-div">
               <div class="conteiner-for-line">
                 <h2 class="title-about">ABOUT</h2>
@@ -120,7 +130,7 @@
             </div>
         </section>
 
-        <section class = "store">
+        <section class = "store" id = "store">
             <div class = "container">
               <div class="conteiner-for-line">
                 <h2 class="title-store">STORE</h2>
@@ -269,7 +279,7 @@
 
         </section>
 
-        <section class = "delivery">
+        <section class = "delivery" id = "delivery">
             <div class = "container">
               <div class="conteiner-for-line">
                 <h2 class="title-delivery">DELIVERY</h2>
@@ -330,7 +340,7 @@
 
         </section>
 
-        <section class = "blog">
+        <section class = "blog" id = "blog">
             <div class = "container">
                 <div class = "conteiner-for-line">
                 <h2 class = "title-blog">BLOG</h2>
@@ -441,20 +451,21 @@
     <footer class = "last-footer">
       <div class = "container">
 
+        <div class = "together-footer">
         <div class = "one-block-footer">
           <h3 class = "block-h">Navigation</h3>
           <ul class = "list link">
             <li class = "one-block-li">
-              <a href="" class = "link-one-block">Anemone</a>
+              <a href="" class = "link-one-block link">Anemone</a>
             </li>
             <li class = "one-block-li">
-              <a href="" class="link-one-block">About us</a>
+              <a href="" class="link-one-block link">About us</a>
             </li>
             <li class = "one-block-li">
-              <a href="" class="link-one-block">Store</a>
+              <a href="" class="link-one-block link">Store</a>
             </li>
             <li class="one-block-li">
-              <a href="" class="link-one-block">Delivery</a>
+              <a href="" class="link-one-block link">Delivery</a>
             </li>
           </ul>
         </div>
@@ -463,19 +474,21 @@
           <h3 class = "block-h">Opening times</h3>
           <p class = "block-p">Every day 9:00 - 22:00</p>
         </div>
+        </div>
 
+        <div class = "together-footer2">
         <div class = "three-block-footer">
         <h3 class = "block-h">Contacts</h3>
         <address class = "footer-address">
           <ul class = "three-block-ul list">
-          <li class = "three-block-li">
+          <li class = "three-block-li link">
           <a href="tel:+380631234567" class = "tel-footer-address link">+38 063 123 45 67</a>
           </li>
-          <li class="three-block-li">
+          <li class="three-block-li link">
           <a href = "mailto:anemonestudio@example.com" class = "mail-footer-address link">anemonestudio@example.com</a>
           </li>
-          <li class="three-block-li">
-          <a href = "https://goo.gl/maps/dgXDaj46vdG8QN3i8" class = "footer-address-text link link" target="_blank" rel = "noreferrer noopener">
+          <li class="three-block-li link">
+          <a href = "https://goo.gl/maps/dgXDaj46vdG8QN3i8" class = "footer-address-text link" target="_blank" rel = "noreferrer noopener">
             Reitarska Street, 11
             <br>Kyiv, Ukraine
           </a>
@@ -501,6 +514,7 @@
             </a>
           </li>
         </ul>
+      </div>
       </div>
       </div>
     </footer>
