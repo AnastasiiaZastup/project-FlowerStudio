@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/tabletmedia.css">
+    <link rel="stylesheet" href="./styles/style.css" />
+    
 </head>
 <body>
     <header class = "header-flower">
       <div class = "container header-position-element">
         <nav class = "nav-logo">
           <a href="./index.html" class = "link">
-            <svg class = "logo-icon" width="45" height="35">
+            <svg class = "logo-icon" width="72" height="57">
               <use href ="pictures/icons.svg#icon-logo_mob"></use>
             </svg>
             <ul class = "listed list">
@@ -28,19 +28,13 @@
         <div class = "tel-header">
           <address class = "header-adress">
             <a class = "header-adress-link" href = "tel:+110001111111">
-              <svg class="logo-tel" width="22" height="22">
+              <svg class="logo-tel" width="28" height="28">
                 <use href="pictures/icons.svg#icon-tel_mob"></use>
               </svg>
             </a>
           </address>
         </div>
-          <div class = "menu-header">
-            <button type ="button" class="mob-menu-open" data-menu-open>
-              <svg class="logo-tel" width="24" height="24">
-                <use href="pictures/icons.svg#icon-Burger"></use>
-              </svg>
-            </button>
-          </div>
+         
           </div>
       </div>
 
@@ -49,7 +43,7 @@
         <section class = "hero">
             <div class = "container">
               <div class = "div-for-text">
-                <p class = "text-hero">flower studio</p>
+                
                 <div class="hero-picture">
                     <picture>
                       <source
@@ -80,13 +74,16 @@
                       />
                     </picture>
                   </div>
-                  <button class = "btn-svg">
-                  <svg class = "hero-svg" width = "145" height = "150">
-                    <use href = "./pictures/icons.svg#icon-btn_desk"></use>
-                </svg>
-                </button>
                 </div>
                 <h1 class = "title-hero">ANEMONE</h1>
+                <div class = "div-for-pandbutton">
+                <p class="text-hero">flower studio</p>
+                <button class="btn-svg">
+                  <svg class="hero-svg" width="145" height="150">
+                    <use href="./pictures/icons.svg#icon-btn_desk"></use>
+                  </svg>
+                </button>
+                </div>
             </div>
         </section>
 
@@ -96,6 +93,7 @@
                 <h2 class="title-about">ABOUT</h2>
                 <div class="vertical-line"></div>
                 </div>
+                <div class = "text-and-picture">
                 <p class = "text-about">We are a minimalistic flower studio. We love people and flowers. Therefore, every day we give people the beauty and joy creating stylish and modern masterpieces. Every bouquet we create is unique as you are.</p>
                 <div class="about-picture">
                     <picture>
@@ -126,6 +124,7 @@
                         alt="Picture flowers"
                       />
                     </picture>
+                    </div>
                   </div>
             </div>
         </section>
@@ -168,7 +167,10 @@
                               />
                             </picture>
                           </div>
+                        <div class="conteiner-for-line">
                         <p class = "list-store-text">compliments</p>
+                        <div class="vertical-line"></div>
+                        </div>
                         <span class = "span-list-store">from $15</span>
                     </li>
                     <li class = "step-list-store">
@@ -202,7 +204,10 @@
                               />
                             </picture>
                           </div>
-                        <p class = "list-store-text">bouquets size S</p>
+                          <div class="conteiner-for-line">
+                            <p class="list-store-text">bouquets size S</p>
+                            <div class="vertical-line"></div>
+                          </div>
                         <span class = "span-list-store">from $25</span>
                     </li>
                     <li class = "step-list-store">
@@ -236,7 +241,10 @@
                               />
                             </picture>
                           </div>
-                        <p class = "list-store-text">bouquets size M</p>
+                        <div class="conteiner-for-line">
+                          <p class="list-store-text">bouquets size M</p>
+                          <div class="vertical-line"></div>
+                        </div>
                         <span class = "span-list-store">from $45</span>
                     </li>
                     <li class = "step-list-store">
@@ -270,7 +278,10 @@
                               />
                             </picture>
                           </div>
-                        <p class = "list-store-text">bouquets size L</p>
+                      <div class="conteiner-for-line">
+                        <p class="list-store-text">bouquets size L</p>
+                        <div class="vertical-line"></div>
+                      </div>
                         <span class = "span-list-store">from $60</span>
                     </li>
                 </ul>
@@ -307,27 +318,13 @@
                 </ol>
                 </div>
                 <div class="delivery-picture">
-                    <picture>
+                    <picture class = "picture-picture">
                       <source
                         srcset="
                           ./pictures/desktop/delivery-1x.jpg 1x,
                           ./pictures/desktop/delivery-2x.jpg 2x
                         "
                         media="(min-width: 1280px)"
-                      />
-                      <source
-                        srcset="
-                        ./pictures/table/delivery-1x.jpg 1x,
-                        ./pictures/table/delivery-2x.jpg 2x
-                        "
-                        media="(min-width: 768px)"
-                      />
-                      <source
-                        srcset="
-                        ./pictures/mobile/delivery-1x.jpg 1x,
-                        ./pictures/mobile/delivery-2x.jpg 2x
-                        "
-                        media="(min-width: 320px)"
                       />
                       <img
                         class="delivery-images"

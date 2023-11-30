@@ -13,7 +13,7 @@
     margin-right: auto;
     padding-left: 8px;
     padding-right: 8px;
-    max-width: 320px;
+    max-width: 1280px;
     position: relative;
 }
 
@@ -23,7 +23,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 44px;
+    margin-bottom: 28px;
     margin-top: 16px;
 }
 
@@ -31,6 +31,31 @@
     display: flex;
     align-items: center;
     gap: 14px;
+}
+
+.listed {
+    display: flex;
+    gap: 48px;
+    margin-left: 261px;
+    max-width: 565px;
+    
+    
+}
+
+.list-li-header {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+.nav-logo {
+    display: flex;
+    align-items: center;
 }
 /*hero*/
 
@@ -41,24 +66,54 @@
 }
 
 .title-hero {
-   position: absolute;
-   top: 74%;
-   left: 35%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 160px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -60px;
 }
 
 .text-hero {
     text-align: center;
+    color: black;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.div-for-pandbutton {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn-svg {
+    text-decoration: none;
+    border: none;
+    background-color: #FFFFFF;
 }
 
 /*about*/ 
 
 .text-about {
-    margin-top: 32px;
-    margin-bottom: 16px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 510px;
 }
 
 .title-about {
     margin-right: 14px;
+    font-size: 44px;
 }
 
 .about-div {
@@ -66,10 +121,17 @@
     padding-bottom: 60px;
 }
 
+.text-and-picture {
+    display: flex;
+    gap: 90px;
+    align-items: center;
+}
+
 /*store*/
 
 .title-store {
     margin-right: 14px;
+    font-size: 44px;
 }
 
 .list-store {
@@ -84,8 +146,8 @@
 
 .btn-store{
     
-    width: 208px;
-    height: 44px;
+    width: 280px;
+    height: 64px;
     padding: 14px 28px;
     gap: 10px;
     flex-shrink: 0;
@@ -93,23 +155,55 @@
     background: var(--pink, #E86F54);
     display: block;
     margin: 0 auto;
-    margin-top: 34px;
+    margin-top: 60px;
     margin-bottom: 70px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    border: none;
+    
+}
+
+.list-store-text {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+}
+
+.span-list-store {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 /*delivery*/
 
 .title-delivery {
     margin-right: 14px;
+    font-size: 44px;
 }
 
-.delivery-picture {
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   margin-left: -8px;
-   margin-right: auto;
-    width: 320px;
+.picture-picture {
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    width: 100%;
+    
 }
 
 .list-delivery {
@@ -119,6 +213,7 @@
     margin-bottom: 20px;
     list-style-type: none;
     padding-left: 0;
+    max-width: 855px;
 }
 
 .step-list-delivery {
@@ -132,13 +227,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 16px;
+    padding: 25px 30px;
     border-radius: 200px;
-    max-width: 40px;
-    max-height: 40px;
+    max-width: 80px;
+    max-height: 80px;
     color: black;
     border: 1px solid #141414;
-    margin-right: 8px;
+    margin-right: 64px;
+    margin-left: 60px;
     margin-top: 0;
     margin-bottom: 0; 
 }
@@ -146,6 +242,12 @@
 .list-delivery-text {
     margin-top: 0;
     margin-bottom: 0;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
 .wast {
